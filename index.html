@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Искатель кольца</title>
+        <link rel="stylesheet" href="hobbit1.css">
+        <script src="hobbit1.js"></script>
+        <style> 
+            html { height: 90%; }
+            body {
+            margin: 0;
+            height: 90%;
+            background: img "les.png";
+            background-size: cover; } 
+        </style>
+    </head>
+
+    <body background="les.png">
+        <h1>Ты — хоббит, крадущийся по лесу в поисках кольца, которое обронил в спешке. <br>Вместе с тобой его разыскивает отряд орков. Не попадись!</h1>
+        <h2>Орков в отряде: <span id="orcs-count">0</span></h2>
+        <div id="forest"></div>
+        <br>
+        <button id="foundone-button"><img src="orc.png" alt="Орк" style="vertical-align: middle"></button>
+        <button id="restart-button" onclick=window.location.reload()>Заново</button>
+   
+    </body>
+</html>
+

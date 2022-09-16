@@ -1,0 +1,110 @@
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900);
+
+body {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+    background: rgba(184, 154, 110, 0.5);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+}
+
+#forest {
+    width: 400px;
+    height: 400px;
+    border: 10px solid #8A7555;
+    background-color: #80AA80;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forest div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #93BC93;
+
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: #5C805C;
+}
+
+.x1 {
+    color: darkblue;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.x2 {
+    color: darkgreen;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.x3 {
+    color: darkred;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.x4 {
+    color: navy;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.x5 {
+    color: brown;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.x6 {
+    color: teal;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.x7 {
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.x8 {
+    color: gray;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#foundone-button {
+    width: 130px;
+    height: 59px;
+    font-size: 30px;
+    background-color: rgba(184, 154, 110, 1);
+    border: 3px solid rgba(138, 117, 85, 1);
+    margin-right: 30px;
+}
+
+#restart-button {
+    width: 130px;
+    height: 59px;
+    font-size: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    background-color: rgba(184, 154, 110, 1);
+    border: 3px solid rgba(138, 117, 85, 1);
+    margin-left: 30px;
+}
